@@ -1,0 +1,9 @@
+---
+:orm: none
+:test: minitest
+:mock: none
+:script: jquery
+:renderer: erb
+:stylesheet: scss
+:namespace: Feedbacker
+:migration_format: number
