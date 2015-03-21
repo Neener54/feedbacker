@@ -1,7 +1,5 @@
 module Feedbacker
-  class App < Padrino::Application
-    register ScssInitializer
-    use ConnectionPoolManagement
+  class Api < Padrino::Application
     register Padrino::Mailer
     register Padrino::Helpers
 

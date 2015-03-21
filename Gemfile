@@ -4,11 +4,11 @@ source 'https://rubygems.org'
 # gemspec
 
 # Server requirements
-# gem 'thin' # or mongrel
+gem 'thin' # or mongrel
 # gem 'trinidad', :platform => 'jruby'
 
 # Optional JSON codec (faster performance)
-# gem 'oj'
+gem 'oj'
 
 # Project requirements
 gem 'rake'
@@ -31,3 +31,7 @@ gem 'padrino', '0.12.5'
 # %w(core support gen helpers cache mailer admin).each do |g|
 #   gem 'padrino-' + g, '0.12.5'
 # end
+gem 'activerecord', :require => 'active_record'
+gem 'sqlite3'
+
+
